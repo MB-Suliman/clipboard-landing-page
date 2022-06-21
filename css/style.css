@@ -139,7 +139,7 @@ button:hover {
     cursor: pointer;
 }
 
-@media (max-width: 245px) {
+@media (max-width: 375px) {
     button {
         margin: 15px 0;
         width: 90%;
@@ -186,7 +186,7 @@ main h2 + p {
     color: var(--second-Neutral);
 }
 
-@media (min-width: 245px) {
+@media (max-width: 651.5) {
     main h2 + p {
         padding: 0px 35px;
     }
@@ -233,7 +233,7 @@ main .features h3 + p {
     line-height: 1.8;
 }
 
-@media (min-width: 245px) {
+@media (max-width: 991.5px) {
     main .features-box {
         display: flex;
         flex-direction: column-reverse;
@@ -300,7 +300,7 @@ main .features h3 + p {
     margin-top: 50px;
 }
 
-@media (min-width: 245px) and (max-width: 991px) {
+@media (max-width: 991.5px) {
     .sec-2 {
         margin-top: 145px;
     }
@@ -329,7 +329,7 @@ main .features h3 + p {
     }
 }
 
-@media (min-width: 245px) {
+@media (max-width: 991.5px) {
     .sec-3 .tools {
         margin-top: inherit;
         display: flex;
@@ -439,7 +439,7 @@ footer .attribution {
     word-spacing: 3px;
 }
 
-@media (min-width: 245px) and (max-width: 991px) {
+@media (max-width: 991.5px) {
     footer {
         height: 400px;
     }
@@ -523,4 +523,9 @@ h2:hover {
 
 h3:hover {
     color: #e91e63;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
 }
