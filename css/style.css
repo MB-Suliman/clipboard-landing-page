@@ -79,7 +79,7 @@ header p {
     color: var(--second-Neutral);
 }
 
-@media (min-width: 245px) {
+@media (max-width: 651.5px) {
     header p {
         padding: 0px 15px;
     }
@@ -475,7 +475,7 @@ footer .attribution {
     }
 
     footer .container {
-        margin: auto;
+        margin: 0px auto;
         flex-direction: initial;
         flex-wrap: wrap;
         justify-content: space-between;
